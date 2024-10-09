@@ -1,0 +1,88 @@
+body{
+    background-color:rgb(177, 176, 176)
+}
+
+.img{
+   margin-left: 400px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.div5 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 230px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid red;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.div6 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 230px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid red;
+    justify-content: center;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.div11 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width: 230px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid red;    
+    font-size: 18px;
+    padding: 12px;
+}
+
+.div7 {
+    grid-column: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 730px;
+    height: 95px;
+    border-radius: 10px;
+    border: 3px solid red;    
+    background-color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.modal-custom{
+    background-color: rgb(193, 54, 54);
+    color: white;
+    font-size: 18px;
+}
+
+.button{
+    border-radius: 15px;
+}
+
+.button-decor{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border: 20px;
+}

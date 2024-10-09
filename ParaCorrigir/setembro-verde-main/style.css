@@ -1,0 +1,158 @@
+.links{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*body*/
+section{
+    margin-bottom: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.727);}
+    
+/*1° section*/  
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    text-align: center;
+    font-size:xx-large;
+    margin-top: 200px;
+    margin-left: 200px;
+    width:500px;
+
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    grid-column-start: 3;
+    margin-top: 250px;
+    
+}
+
+/*2° section*/
+.div3{
+    grid-column: span 4 / span 4;
+    grid-row: span 5 / span 5;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #97ff85aa;
+    padding: 30px 60px ;
+}
+
+.div3 p{
+    font-size:x-large;
+}
+
+/*3° section*/
+.div4{
+    grid-column: span 4 / span 4;
+    grid-row: span 5 / span 5;
+    text-align: center;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 100px;
+}
+
+.div4 p{
+    font-size:x-large;
+}
+
+.texto{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+/*div do video*/
+.div5{
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+    grid-row-start: 2;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div6{
+    background-color: #97ff85aa;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 60px ;
+}
+
+/*botão*/
+.botoes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 8px;
+    border: 2px solid #65df50; 
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+  .botoes:hover {
+    background-color: #65df50; 
+    color: white;
+  }
+
+  .botoes a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+/*gracinha*/
+.cor{
+    color: #65df50;
+    font-weight: bold;
+}
+
+/* menu */
+.menu {
+    background-color: #71ed5b;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(32, 32, 32);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+
+  .menu a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    
+  }
+  
+  .menu a:hover {
+    border-bottom: 3px solid green;
+  }
+  
+  .menu a.active {
+    border-bottom: 3px solid green;
+  }
+
+  /*roda-pé*/
+  footer {
+    position: absolute;
+    height: 30px;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
